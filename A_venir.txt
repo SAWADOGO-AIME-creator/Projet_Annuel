@@ -1,0 +1,7 @@
+********SAWADOGO AIME********
+#####gui.py
+    ->Prochainement je mettrai à jour la disposition des onglets
+        sur l'interface graphique pour rendre ca plus dynamique
+    ->Retester à nouveau toutes les fonctionnalités
+
+___________________________________________________________________________________

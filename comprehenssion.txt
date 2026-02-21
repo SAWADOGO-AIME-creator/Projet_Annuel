@@ -1,0 +1,36 @@
+Ma comprehension un jeu de labyrinthe:un labyrinthe caracterisé par un chemin en forme spirale 
+qui s’enroule vers le centre, à multicursale, c’est à dire avec plusieurs chemins qui ménent à la même sortie.
+
+Notre role:
+->Implemeter en python les differentes methodes issues de la therie de graphes
+->Generation
+->construction
+->Resolution d'un labyrinthe
+
+Processsus de deroulement:
+
+Le labyrinthe est vu comme un graphe  non orienté car pour chaque sommet u et v, si u->v est un chemin alors v-> l'est aussi:
+	Les cases / intersections --> des sommets
+	Les couloirs / chemins --> des arêtes
+Implementer les algorithmes:
+	->utilisation des algorithmes classiques, par exemple (issus notamment de Introduction to Algorithms de Cormen)
+
+Exemples possibles (pas explicitement imposés) :
+DFS (Depth-First Search) aléatoire
+Kruskal
+Prim
+Backtracking
+
+Ici, un labyrinthe = un graphe connexe avec certaines propriétés.On choisira parmis les algos vu en cours 
+que j'ai joint dans les PDF, le meilleur coorespondant à notre etude
+
+Je pense egalement que nou devons integré la complexité des algos, justification des algorithmes. Si y a un algo à utiliser qui se trouve dan le cours(les pDF joints , tu doi reelement utiliser cela )
+
+donc tu creeras un dosier src pour les codes et bien strctucter et ca doit correspondre exactement ce qui est de mander, un ficher requirements, un fichier les algos(djikstra ou quoi ) en fait; tu diras tout ca et tu feras tous ca bien, voici si joint tous les dossiers necessaires qui pourront etre necessaire pour notre projet, n'oublie pas le fichier redme aussi; 
+
+Le fichier du projet est Labyrinthes.pdf et les autres mes cour et la documentation;
+
+les documments annexes données sont dans le document Labyrinthes: tu verras dans ca ce quil faut utiliser pour le graphique et tout,
+on pourait avoir une interface graphique avec gui qui intergre le model, mais il aura l'otion de dester avec l'interface graphique ou pas ; 
+C'est à dire que lon pourrait resoudre sans voir l'interface graphique ; mai si c'est avec l'interfaec graphique tous les options doivent etre là et fonction, gnereation ,demarer, selection du nombre pour largeur et longeueur et aussi tout doit marcher sans probleme et avec possibilté d'enregistrer, 
+L'interface avec TKinter
